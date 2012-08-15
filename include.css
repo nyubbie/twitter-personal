@@ -1,0 +1,13 @@
+/* 
+ * CSS to be included to exclude the Header and Footer sections of Twitter's Search Widget.
+ *
+ *
+ */
+
+.twtr-hd, .twtr-ft {
+	display:none;
+}
+
+.twtr-widget .twtr-tweet {
+	
+}
