@@ -27,7 +27,7 @@ new TWTR.Widget({
   height: 300,
   theme: {
     shell: {
-      background: '#000000',
+      background: '#ffffff',
       color: '#ffffff'
     },
     tweets: {
