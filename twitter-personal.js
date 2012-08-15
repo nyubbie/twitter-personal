@@ -38,9 +38,14 @@ new TWTR.Widget({
     }
   },
   features: {
+	avatars: true,
+	hashtags: true,
+	timestamp: true,
     scrollbar: false,
     loop: false,
     live: false,
-    behavior: 'all'
+    behavior: 'all',
+	dateformat: 'relative',
+	toptweets: true
   }
 }).render().start();
