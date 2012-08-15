@@ -19,8 +19,8 @@ if(!window.twttr){window.twttr={}}(function(){twttr.txt={};twttr.txt.regexen={};
 new TWTR.Widget({
   version: 2,
   type: 'search',
-  search: '@renoywk renoywk',
-  interval: 5000,
+  search: '@renoywk',
+  interval: 30000,
   rpp: 1,
   title: '',
   subject: '',
@@ -40,7 +40,7 @@ new TWTR.Widget({
   features: {
     scrollbar: false,
     loop: false,
-    live: true,
+    live: false,
     behavior: 'all'
   }
 }).render().start();
