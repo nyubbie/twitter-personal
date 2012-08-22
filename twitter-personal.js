@@ -19,10 +19,8 @@ if(!window.twttr){window.twttr={}}(function(){twttr.txt={};twttr.txt.regexen={};
 new TWTR.Widget({
   version: 2,
   type: 'profile',
-  interval: 30000,
   rpp: 1,
-  title: '',
-  subject: '',
+  interval: 30000,
   width: 250,
   height: 300,
   theme: {
@@ -37,13 +35,9 @@ new TWTR.Widget({
     }
   },
   features: {
-	avatars: true,
-	hashtags: true,
-	timestamp: true,
     scrollbar: false,
     loop: false,
     live: false,
     behavior: 'all',
-	toptweets: false
   }
 }).render().start();
