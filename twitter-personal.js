@@ -19,7 +19,7 @@ if(!window.twttr){window.twttr={}}(function(){twttr.txt={};twttr.txt.regexen={};
 new TWTR.Widget({
   version: 2,
   type: 'search',
-  search: '@renoywk',
+  search: 'from:renoywk',
   interval: 30000,
   rpp: 1,
   title: '',
