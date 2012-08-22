@@ -19,11 +19,11 @@ new TWTR.Widget({
   height: 300,
   theme: {
     shell: {
-      background: '#161616',
+      background: '#333333',
       color: '#D4D4D4'
     },
     tweets: {
-      background: '#161616',
+      background: '#333333',
       color: '#D4D4D4',
       links: '#1985b5'
     }
