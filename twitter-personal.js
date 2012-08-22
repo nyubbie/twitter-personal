@@ -18,8 +18,7 @@ if(!window.twttr){window.twttr={}}(function(){twttr.txt={};twttr.txt.regexen={};
 
 new TWTR.Widget({
   version: 2,
-  type: 'search',
-  search: 'from:renoywk',
+  type: 'profile',
   interval: 30000,
   rpp: 1,
   title: '',
@@ -45,7 +44,6 @@ new TWTR.Widget({
     loop: false,
     live: false,
     behavior: 'all',
-	dateformat: 'relative',
 	toptweets: false
   }
 }).render().start();
