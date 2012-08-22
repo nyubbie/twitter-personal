@@ -46,6 +46,6 @@ new TWTR.Widget({
     live: false,
     behavior: 'all',
 	dateformat: 'relative',
-	toptweets: true
+	toptweets: false
   }
 }).render().start();
