@@ -4,6 +4,12 @@
  *
  */
 
+.twtr-doc {
+	-moz-border-radius:0px !important;
+	-webkit-border-radius:0px !important;
+	border-radius:0px !important;
+}
+
 .twtr-hd, .twtr-ft {
 	display:none;
 }
